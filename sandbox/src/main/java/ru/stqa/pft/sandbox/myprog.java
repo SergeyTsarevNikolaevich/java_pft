@@ -8,7 +8,7 @@ public class myprog {
 		hello("world");
 		hello("user");
 		hello("Alexei");
-		double l = 5
+		double l = 5;
 		System.out.println("Площадь квадрата со стороной" + l + " = " + area(l));
 
 		double a = 4;
@@ -26,17 +26,14 @@ public class myprog {
 		//String somebody = "world"
 		System.out.println("hello" + somebody + "!");
 	}
+
 	public static double area(double len) {
-		 return len * len;
-
- }
- 	public static double area(double a, double b) {
-
-
-
-
-
+		return len * len;
 
 	}
-}
 
+	public static void area(double a, double b) {
+
+	}
+
+}
