@@ -23,9 +23,9 @@ public class TestBase {
     @Test
     public void testGroupDeletion() throws Exception {
 
-      applicationManager.gotoGroupPage();
-      applicationManager.selectGroup();
-      applicationManager.selectDeleteGroups();
+      applicationManager.getNavigationHelper().gotoGroupPage();
+      applicationManager.getGroupHelper().selectGroup();
+      applicationManager.getGroupHelper().selectDeleteGroups();
       applicationManager.returnToGroupPage();
     }
 
